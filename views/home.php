@@ -1,4 +1,4 @@
-<div class="p-5 mb-4 bg-body-tertiary rounded-3">
+<div class="p-5 bg-light rounded-3">
     <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">PPDB 2023</h1>
         <h1 class="display-9 fw-bold">Website PPDB SMAN 9 Tangerang</h1>
@@ -6,18 +6,18 @@
         <button class="btn btn-success btn-lg" type="button">Lihat Jadwal <i class="fa-solid fa-angles-right"></i></button>
     </div>
 </div>
-<div class="card">
+<!-- <div class="card">
   <div class="card-body bg-warning">
   <i class="fa-solid fa-circle-info"></i> Informasi PPDB 2023
   </div>
-</div>
+</div> -->
 <!-- <div class="container-fluid bg-warning">
     <div class="container p-3">
     <i class="fa-solid fa-circle-info"></i> Informasi PPDB 2023
     </div>
 </div> -->
-<div class="container p-5">
-    <h1 class="text-center mb-3">Jalur Pendaftaran</h1>
+<div class="container p-5 bg-light">
+    <h1 class="text-center mb-5">Jalur Pendaftaran</h1>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
       <div class="col-md-6 col-lg-3">
         <div class="card mb-4 rounded-3 shadow-sm border-primary">
@@ -51,7 +51,7 @@
                     </tr>
                 </tbody>
             </table>
-            <button type="button" class="w-100 btn btn-lg btn-primary"><i class="fa-solid fa-user-pen"></i> Daftar</button>
+            <button type="button" class="w-100 btn btn-lg btn-success"><i class="fa-solid fa-user-pen"></i> Daftar</button>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
                     </tr>
                 </tbody>
             </table>
-            <button type="button" class="w-100 btn btn-lg btn-primary"><i class="fa-solid fa-user-pen"></i> Daftar</button>
+            <button type="button" class="w-100 btn btn-lg btn-success"><i class="fa-solid fa-user-pen"></i> Daftar</button>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@
                     </tr>
                 </tbody>
             </table>
-            <button type="button" class="w-100 btn btn-lg btn-primary"><i class="fa-solid fa-user-pen"></i> Daftar</button>
+            <button type="button" class="w-100 btn btn-lg btn-success"><i class="fa-solid fa-user-pen"></i> Daftar</button>
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@
                     </tr>
                 </tbody>
             </table>
-            <button type="button" class="w-100 btn btn-lg btn-primary"><i class="fa-solid fa-user-pen"></i> Daftar</button>
+            <button type="button" class="w-100 btn btn-lg btn-success"><i class="fa-solid fa-user-pen"></i> Daftar</button>
           </div>
         </div>
       </div>

@@ -1,27 +1,22 @@
-<div class="p-5 bg-light rounded-3">
-    <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">PPDB 2023</h1>
-        <h1 class="display-9 fw-bold">Website PPDB SMAN 9 Tangerang</h1>
-        <p class="col-md-8 fs-4">Lihat informasi Pendaftaran Peserta Didik Baru</p>
-        <button class="btn btn-success btn-lg" type="button">Lihat Jadwal <i class="fa-solid fa-angles-right"></i></button>
-    </div>
-</div>
-<!-- <div class="card">
-  <div class="card-body bg-warning">
-  <i class="fa-solid fa-circle-info"></i> Informasi PPDB 2023
-  </div>
-</div> -->
 <!-- <div class="container-fluid bg-warning">
     <div class="container p-3">
     <i class="fa-solid fa-circle-info"></i> Informasi PPDB 2023
     </div>
 </div> -->
-<div class="container p-5 bg-light">
-    <h1 class="text-center mb-5">Jalur Pendaftaran</h1>
+<div class="p-5 bg-light rounded-3">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">PPDB 2023</h1>
+        <h1 class="display-9 fw-bold">Website PPDB SMAN 9 Tangerang</h1>
+        <p class="col-md-8 fs-4">Lihat informasi Pendaftaran Peserta Didik Baru</p>
+        <button class="btn btn-success btn-lg" type="button"><i class="fa-solid fa-calendar-days text-success-300"></i> Lihat Jadwal <i class="fa-solid fa-angles-right"></i></button>
+    </div>
+</div>
+<div class="container-fluid p-5 bg-primary-400">
+    <h3 class="text-center mb-5 text-light"><i class="fa-solid fa-route"></i> Jalur Pendaftaran</h3>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
       <div class="col-md-6 col-lg-3">
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-          <div class="card-header py-3 text-bg-primary border-primary">
+        <div class="card mb-4 rounded-3 shadow-sm border-success">
+          <div class="card-header py-3 text-bg-success border-success">
             <h4 class="my-0 fw-normal"><i class="fa-solid fa-address-card"></i> Afirmasi</h4>
           </div>
           <div class="card-body">
@@ -56,8 +51,8 @@
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-          <div class="card-header py-3 text-bg-primary border-primary">
+        <div class="card mb-4 rounded-3 shadow-sm border-success">
+          <div class="card-header py-3 text-bg-success border-success">
             <h4 class="my-0 fw-normal"><i class="fa-solid fa-street-view"></i> Zonasi</h4>
           </div>
           <div class="card-body">
@@ -92,8 +87,8 @@
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-          <div class="card-header py-3 text-bg-primary border-primary">
+        <div class="card mb-4 rounded-3 shadow-sm border-success">
+          <div class="card-header py-3 text-bg-success border-success">
             <h4 class="my-0 fw-normal"><i class="fa-solid fa-right-left"></i> Mutasi</h4>
           </div>
           <div class="card-body">
@@ -128,8 +123,8 @@
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-          <div class="card-header py-3 text-bg-primary border-primary">
+        <div class="card mb-4 rounded-3 shadow-sm border-success">
+          <div class="card-header py-3 text-bg-success border-success">
             <h4 class="my-0 fw-normal"><i class="fa-solid fa-graduation-cap"></i> Prestasi</h4>
           </div>
           <div class="card-body">

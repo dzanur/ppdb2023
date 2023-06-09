@@ -69,16 +69,3 @@
   .bd-mode-toggle {
     z-index: 1500;
   }
-  // required to get $orange variable
-@import "functions"; 
-@import "variables";
-
-$primary: "#373F51"; // set the $primary variable
-
-// merge with existing $theme-colors map
-$theme-colors: map-merge($theme-colors, (
-  "#373F51": $primary
-));
-
-// set changes
-@import "bootstrap";

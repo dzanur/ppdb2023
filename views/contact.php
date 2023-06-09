@@ -1,3 +1,1 @@
-<?php
-$_SESSION['title'] = "Contact Me";
-?>
+<h1>Kontak Kami</h1>

@@ -4,7 +4,9 @@ $theme-colors: (
     "success": #2a6fdb,
     "danger": #bd4631,
     "warning": #fefcbf,
-    "info": #81e9e6
+    "info": #81e9e6,
+    "light": #F8F9FA,
+    "dark": #212529
 );
 // import all bootstrap
 @import "node_modules/bootstrap/scss/bootstrap.scss"

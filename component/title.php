@@ -9,12 +9,12 @@ switch ($request) {
         $title = "User";
         break;
 
-    case '/contact':
-        $title = "Kontak Kami";
+    case '/seleksi':
+        $title = "seleksi";
         break;
 
     default:
         http_response_code(404);
-        $title = "Beranda";
+        $title = "Halaman tidak ditemukan";
 }
 ?>

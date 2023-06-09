@@ -16,8 +16,8 @@ switch ($request) {
         require __DIR__ . $viewDir . 'users.php';
         break;
 
-    case '/contact':
-        require __DIR__ . $viewDir . 'contact.php';
+    case '/seleksi':
+        require __DIR__ . $viewDir . 'seleksi.php';
         break;
 
     default:

@@ -6,13 +6,13 @@
             <a href="/" class="mb-3 me-2 mb-md-0 text-light text-decoration-none lh-1">
                 <img src="assets/img/logo.png" width ="40px" alt="">
             </a>
-            <span class="mb-3 mb-md-0 text-light">© 2023 SMAN 9 Tangerang</span>
+            <span class="mb-3 mb-md-0 text-light">© 2021-<?php echo date("Y"); ?> SMAN 9 Tangerang</span>
           </div>
       
           <ul class="nav col-md-4 justify-content-end pe-lg-5 list-unstyled d-flex">
-            <li class="ms-2"><a class="text-light" href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li class="ms-2"><a class="text-light" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            <li class="ms-2"><a class="text-light" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="ms-2"><a class="text-light" href="https://www.youtube.com/@SMAN9Tangerang"><i class="fa-brands fa-youtube"></i></a></li>
+            <li class="ms-2"><a class="text-light" href="https://www.instagram.com/official.sman9tangerang/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="ms-2"><a class="text-light" href="https://www.facebook.com/smanlanta/"><i class="fa-brands fa-facebook"></i></a></li>
           </ul>
         </footer>
     </div>

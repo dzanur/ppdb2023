@@ -9,7 +9,7 @@ switch ($request) {
         $title = "Ambil Titik Koordinat";
         break;
 
-    case '/seleksi':
+    case '/cari':
         $title = "Hasil Seleksi";
         break;
 

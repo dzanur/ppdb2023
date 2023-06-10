@@ -16,7 +16,7 @@ switch ($request) {
         require __DIR__ . $viewDir . 'tikor.php';
         break;
 
-    case '/seleksi':
+    case '/cari':
         require __DIR__ . $viewDir . 'frame.php';
         break;
 

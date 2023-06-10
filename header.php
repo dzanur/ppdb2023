@@ -1,6 +1,7 @@
 <?php
-$vjalur = isset($_POST['jalur']);
-if ($vjalur == "0304"){echo "selected";}else{echo "";}
+$jalur1 = isset($jalur);
+echo $jalur1;
+$vjalur = $jalur1;
 ?>
     <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary-700 navbar_top">
         <div class="container-fluid">
@@ -38,7 +39,7 @@ if ($vjalur == "0304"){echo "selected";}else{echo "";}
                     <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download Juknis</a>
                 </li>
             </ul>
-            <form class="d-flex" role="search" action="/seleksi" method="POST">
+            <form class="d-flex" role="search" action="/cari" method="POST">
             <div class="input-group">
                 <select class="form-select w-2" name="jalur">
                     <option class="dropdown-item" value=""></i> Pilih Jalur</option>
@@ -49,7 +50,7 @@ if ($vjalur == "0304"){echo "selected";}else{echo "";}
                     <option class="dropdown-item" value="0302" <?php if ($vjalur == "0302"){echo "selected";}else{echo "";}?>>- Akademik</option>
                     <option class="dropdown-item" value="0305" <?php if ($vjalur == "0305"){echo "selected";}else{echo "";}?>>- Non Akademik</option>
                 </select>
-                <input type="search" class="form-control" name="id" placeholder="Masukkan NISN" aria-label="Cari">
+                <input type="search" class="form-control" name="id" placeholder="Masukkan NISN" aria-label="Cari" autocomplete="off">
                 <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
                 <!-- <input class="form-control me-2" type="search" name="id" placeholder="Masukkan NISN" aria-label="Search"> -->

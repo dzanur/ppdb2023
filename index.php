@@ -12,8 +12,8 @@ switch ($request) {
         require __DIR__ . $viewDir . 'home.php';
         break;
 
-    case '/views/users':
-        require __DIR__ . $viewDir . 'users.php';
+    case '/tikor':
+        require __DIR__ . $viewDir . 'tikor.php';
         break;
 
     case '/seleksi':

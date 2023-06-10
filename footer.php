@@ -10,15 +10,15 @@
           </div>
       
           <ul class="nav col-md-4 justify-content-end pe-lg-5 list-unstyled d-flex">
-            <li class="ms-2"><a class="text-light" href="https://www.youtube.com/@SMAN9Tangerang"><i class="fa-brands fa-youtube"></i></a></li>
-            <li class="ms-2"><a class="text-light" href="https://www.instagram.com/official.sman9tangerang/"><i class="fa-brands fa-instagram"></i></a></li>
-            <li class="ms-2"><a class="text-light" href="https://www.facebook.com/smanlanta/"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="ms-2"><a class="text-light" href="https://www.youtube.com/@SMAN9Tangerang" target="_BLANK"><i class="fa-brands fa-youtube"></i></a></li>
+            <li class="ms-2"><a class="text-light" href="https://www.instagram.com/official.sman9tangerang/" target="_BLANK"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="ms-2"><a class="text-light" href="https://www.facebook.com/smanlanta/" target="_BLANK"><i class="fa-brands fa-facebook"></i></a></li>
           </ul>
         </footer>
     </div>
 </div>
-<!-- <script src="vendor/bootstrap/js/bootstrap.js"></script> -->
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> -->
+<script src="js/bootstrap.bundle.js"></script>
 <!-- <script>
     document.addEventListener('contextmenu', (e) => e.preventDefault());
 

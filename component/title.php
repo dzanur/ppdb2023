@@ -5,12 +5,12 @@ switch ($request) {
         $title = "Beranda";
         break;
 
-    case '/views/users':
-        $title = "User";
+    case '/tikor':
+        $title = "Ambil Titik Koordinat";
         break;
 
     case '/seleksi':
-        $title = "seleksi";
+        $title = "Hasil Seleksi";
         break;
 
     default:

@@ -19,15 +19,15 @@ require 'component/title.php';
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2320264466032858"
      crossorigin="anonymous"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61832252-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-61832252-1');
-    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167196493-1"></script>
     <script async src="https://arc.io/widget.min.js#LL5zvKzt"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-167196493-1');
+	</script>
     <style>
         body {
             font-family: 'Noto Sans', sans-serif;

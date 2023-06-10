@@ -18,6 +18,9 @@ $vjalur = $jalur1;
                     <a class="nav-link <?php if($request == "/") echo "active"; ?>" aria-current="page" href="/"><i class="fa-solid fa-house-chimney"></i> Home</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link <?php if($request == "/persyaratan") echo "active"; ?>" href="persyaratan"><i class="fa-solid fa-check-to-slot"></i> Persyaratan</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link <?php if($request == "/tikor") echo "active"; ?>" href="tikor"><i class="fa-solid fa-location-dot"></i> Tikor</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -32,23 +35,20 @@ $vjalur = $jalur1;
                         <li><a class="dropdown-item nav-link" href="">- Non Akademik</a></li>
                     </ul>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link <?php if($request == "/seleksi") echo "active"; ?>" href="seleksi"><i class="fa-solid fa-users"></i> Hasil Seleksi</a>
-                </li> -->
                 <li class="nav-item">
-                    <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download Juknis</a>
+                    <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download</a>
                 </li>
             </ul>
             <form class="d-flex" role="search" action="/cari" method="POST">
             <div class="input-group">
                 <select class="form-select w-2" name="jalur">
                     <option class="dropdown-item" value=""></i> Pilih Jalur</option>
-                    <option class="dropdown-item" value="0304" <?php if ($vjalur == "0304"){echo "selected";}else{echo "";}?>> Afirmasi</option>
-                    <option class="dropdown-item" value="0300" <?php if ($vjalur == "0300"){echo "selected";}else{echo "";}?>>Zonasi</option>
-                    <option class="dropdown-item" value="0303" <?php if ($vjalur == "0303"){echo "selected";}else{echo "";}?>>Perpindahan Tugas Orang Tua</option>
+                    <option class="dropdown-item" value="0304">Afirmasi</option>
+                    <option class="dropdown-item" value="0300">Zonasi</option>
+                    <option class="dropdown-item" value="0303">Mutasi</option>
                     <option class="dropdown-item" disabled><i class="fa-solid fa-graduation-cap"></i> <strong>Prestasi</strong></option>
-                    <option class="dropdown-item" value="0302" <?php if ($vjalur == "0302"){echo "selected";}else{echo "";}?>>- Akademik</option>
-                    <option class="dropdown-item" value="0305" <?php if ($vjalur == "0305"){echo "selected";}else{echo "";}?>>- Non Akademik</option>
+                    <option class="dropdown-item" value="0302">- Akademik</option>
+                    <option class="dropdown-item" value="0305">- Non Akademik</option>
                 </select>
                 <input type="search" class="form-control" name="id" placeholder="Masukkan NISN" aria-label="Cari" autocomplete="off">
                 <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>

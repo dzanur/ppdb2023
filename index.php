@@ -20,6 +20,14 @@ switch ($request) {
         require __DIR__ . $viewDir . 'frame.php';
         break;
 
+    case '/download':
+        require __DIR__ . $viewDir . 'download.php';
+        break;
+
+    case '/persyaratan':
+        require __DIR__ . $viewDir . 'persyaratan.php';
+        break;
+
     default:
         http_response_code(404);
         require __DIR__ . $viewDir . '404.php';

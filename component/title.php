@@ -12,6 +12,9 @@ switch ($request) {
     case '/cari':
         $title = "Hasil Seleksi";
         break;
+    case '/download':
+        $title = "Download";
+        break;
 
     default:
         http_response_code(404);

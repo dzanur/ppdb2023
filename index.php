@@ -17,7 +17,7 @@ switch ($request) {
         break;
 
     case '/seleksi':
-        require __DIR__ . $viewDir . 'seleksi.php';
+        require __DIR__ . $viewDir . 'frame.php';
         break;
 
     default:

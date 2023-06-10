@@ -1,3 +1,7 @@
+<?php
+$vjalur = isset($_POST['jalur']);
+if ($vjalur == "0304"){echo "selected";}else{echo "";}
+?>
     <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary-700 navbar_top">
         <div class="container-fluid">
             <a class="navbar-brand mb-0 fw-bold fs-3 text-dark bg-light px-3 my-1 rounded" href="/">
@@ -34,9 +38,21 @@
                     <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download Juknis</a>
                 </li>
             </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="d-flex" role="search" action="/seleksi" method="POST">
+            <div class="input-group">
+                <select class="form-select w-2" name="jalur">
+                    <option class="dropdown-item" value=""></i> Pilih Jalur</option>
+                    <option class="dropdown-item" value="0304" <?php if ($vjalur == "0304"){echo "selected";}else{echo "";}?>> Afirmasi</option>
+                    <option class="dropdown-item" value="0300" <?php if ($vjalur == "0300"){echo "selected";}else{echo "";}?>>Zonasi</option>
+                    <option class="dropdown-item" value="0303" <?php if ($vjalur == "0303"){echo "selected";}else{echo "";}?>>Perpindahan Tugas Orang Tua</option>
+                    <option class="dropdown-item" disabled><i class="fa-solid fa-graduation-cap"></i> <strong>Prestasi</strong></option>
+                    <option class="dropdown-item" value="0302" <?php if ($vjalur == "0302"){echo "selected";}else{echo "";}?>>- Akademik</option>
+                    <option class="dropdown-item" value="0305" <?php if ($vjalur == "0305"){echo "selected";}else{echo "";}?>>- Non Akademik</option>
+                </select>
+                <input type="search" class="form-control" name="id" placeholder="Masukkan NISN" aria-label="Cari">
                 <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+                <!-- <input class="form-control me-2" type="search" name="id" placeholder="Masukkan NISN" aria-label="Search"> -->
             </form>
             </div>
         </div>

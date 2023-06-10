@@ -3,15 +3,17 @@
     <i class="fa-solid fa-circle-info"></i> Informasi PPDB 2023
     </div>
 </div> -->
-<div class="p-5 bg-light rounded-3">
-    <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">PPDB 2023</h1>
-        <h1 class="display-9 fw-bold">Website PPDB SMAN 9 Tangerang</h1>
-        <p class="col-md-8 fs-4">Lihat informasi Pendaftaran Peserta Didik Baru</p>
-        <a href="#cara-daftar" class="btn btn-warning-400" type="button"><i class="fa-solid fa-edit text-dark-300"></i> Cara Daftar <i class="fa-solid fa-angles-right"></i></a>
-        <a href="#jadwal" class="ms-2 ms-lg-3 btn btn-success" type="button"><i class="fa-solid fa-calendar-days text-success-300"></i> Lihat Jadwal <i class="fa-solid fa-angles-right"></i></a>
+<section id="home">
+    <div class="p-5 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">PPDB 2023</h1>
+            <h1 class="display-9 fw-bold">Website PPDB SMAN 9 Tangerang</h1>
+            <p class="col-md-8 fs-4">Lihat informasi Pendaftaran Peserta Didik Baru</p>
+            <a href="#cara-daftar" class="btn btn-warning-400" type="button"><i class="fa-solid fa-edit text-dark-300"></i> Cara Daftar <i class="fa-solid fa-angles-right"></i></a>
+            <a href="#jadwal" class="ms-2 ms-lg-3 btn btn-success" type="button"><i class="fa-solid fa-calendar-days text-success-300"></i> Lihat Jadwal <i class="fa-solid fa-angles-right"></i></a>
+        </div>
     </div>
-</div>
+</section>
 <section id="cara-daftar" class="py-5 bg-dark text-light">
     <div class="container">
     <h3 class="text-center mb-5"><i class="fa-solid fa-edit"></i> Cara Mendaftar</h3>

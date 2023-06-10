@@ -7,7 +7,7 @@ require 'component/title.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $title; ?></title>
+    <title><?= $title; ?> - PPDB SMAN 9 Tangerang</title>
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <meta name="description" content="Website PPDB SMAN 9 Tangerang">
     <meta name="keywords" content="PPDB, PPDB 2023/2024, 2023/2024, SMAN 9 TANGERANG, Penerimaan Siswa Baru">

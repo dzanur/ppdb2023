@@ -18,7 +18,7 @@
     </div>
 </div>
 <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> -->
-<script src="js/bootstrap.bundle.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
 <!-- <script>
     document.addEventListener('contextmenu', (e) => e.preventDefault());
 

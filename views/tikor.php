@@ -1,3 +1,5 @@
+    
+    <script src="http://maps.google.com/maps/api/js"></script>
     <style>
         .wrapper {
         /* display: flex; */
@@ -92,5 +94,4 @@
         </div>
     </div>
 
-    <script src="js/script.js"></script>
-    <script src="http://maps.google.com/maps/api/js"></script>
+    <script src="assets/js/script.js"></script>

@@ -1,5 +1,12 @@
+.dropdown-item{
+  padding-left: 25px;
+  padding-right: 30px;
+
+}
 .dropdown-item:hover{
   background-color: #122C91;
+  /* margin-left: 0px;
+  transition: ease-in; */
 
 }
 hr {

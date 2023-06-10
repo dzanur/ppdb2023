@@ -1,4 +1,4 @@
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-700">
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary-700 navbar_top">
         <div class="container-fluid">
             <a class="navbar-brand mb-0 fw-bold fs-3 text-dark bg-light px-3 my-1 rounded" href="/">
                 <img src="assets/img/logo.png" alt="SMAN 9 Tangerang" width="30px">
@@ -12,9 +12,12 @@
                 <li class="nav-item">
                     <a class="nav-link <?php if($request == "/") echo "active"; ?>" aria-current="page" href="/"><i class="fa-solid fa-house-chimney"></i> Home</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php if($request == "/tikor") echo "active"; ?>" href="tikor"><i class="fa-solid fa-location-dot"></i> Tikor</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-users"></i> Daftar</a>
-                    <ul class="dropdown-menu bg-primary-700 shadow-lg">
+                    <ul class="dropdown-menu bg-primary-700 shadow-lg px-3">
                         <li><a class="dropdown-item nav-link" href=""><i class="fa-solid fa-address-card"></i> Afirmasi</a></li>
                         <li><a class="dropdown-item nav-link" href=""><i class="fa-solid fa-street-view"></i> Zonasi</a></li>
                         <li><a class="dropdown-item nav-link" href=""><i class="fa-solid fa-right-left"></i> Perpindahan Tugas Orang Tua</a></li>
@@ -27,9 +30,6 @@
                 <!-- <li class="nav-item">
                     <a class="nav-link <?php if($request == "/seleksi") echo "active"; ?>" href="seleksi"><i class="fa-solid fa-users"></i> Hasil Seleksi</a>
                 </li> -->
-                <li class="nav-item">
-                    <a class="nav-link <?php if($request == "/tikor") echo "active"; ?>" href="tikor"><i class="fa-solid fa-location-dot"></i> Tikor</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download Juknis</a>
                 </li>

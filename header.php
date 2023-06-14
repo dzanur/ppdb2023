@@ -39,9 +39,9 @@ $vjalur = $jalur1;
                     <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download</a>
                 </li>
             </ul>
-            <form class="d-flex" role="search" action="/cari" method="POST">
-            <div class="input-group">
-                <select class="form-select w-2" name="jalur">
+            <form class="d-flex needs-validation" role="search" action="/cari" method="POST" novalidate>
+            <div class="input-group has-validation">
+                <select class="form-select w-2" name="jalur" required>
                     <option class="dropdown-item" value=""></i> Pilih Jalur</option>
                     <option class="dropdown-item" value="0304">Afirmasi</option>
                     <option class="dropdown-item" value="0300">Zonasi</option>
@@ -50,7 +50,10 @@ $vjalur = $jalur1;
                     <option class="dropdown-item" value="0302">- Akademik</option>
                     <option class="dropdown-item" value="0305">- Non Akademik</option>
                 </select>
-                <input type="search" class="form-control" name="id" placeholder="Masukkan NISN" aria-label="Cari" autocomplete="off">
+                <input type="search" class="form-control has-validation" name="id" pattern="{[0-9][10]}" placeholder="Masukkan NISN" aria-label="Cari" autocomplete="off" required>
+                <div class="invalid-feedback">
+                    hanya boleh angka...!
+                </div>
                 <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
                 <!-- <input class="form-control me-2" type="search" name="id" placeholder="Masukkan NISN" aria-label="Search"> -->

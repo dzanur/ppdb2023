@@ -12,3 +12,21 @@
 hr {
   color: #F8F9FA;
 }
+
+.link-samping {
+  text-decoration: none;
+  color: grey;
+}
+.link-samping:hover {
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+article {
+  margin: 0;
+  text-indent: 2rem;
+  text-align: justify;
+}

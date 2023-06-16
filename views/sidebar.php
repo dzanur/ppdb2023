@@ -2,7 +2,7 @@
     <div class="sticky-top">
         <div class="card mb-4 rounded-3 mt-5 mt-md-0 shadow-sm border-success-600">
           <div class="card-header py-2 text-bg-success-700 border-success-600">
-            <h5 class="my-0 fw-normal"><i class="fa-solid fa-list"></i> Menu</h5>
+            <h5 class="my-0 fw-normal"><i class="fa-solid fa-list fa-sm"></i> Menu</h5>
           </div>
           <div class="card-body">
             <ul class="list-group">

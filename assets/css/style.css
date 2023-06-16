@@ -32,10 +32,6 @@ article {
     text-indent: 2rem;
 }
 
-a {
-  text-decoration: none;
-}
-
 #myBtn {
   display: none;
   position: fixed;

@@ -6,10 +6,10 @@
           </div>
           <div class="card-body">
             <ul class="list-group">
-                <li class="list-group-item"><a href="/#cara-daftar" class="link-samping">Cara Mendaftar</a></li>
-                <li class="list-group-item"><a href="/#jadwal" class="link-samping">Jadwal Pendaftaran</a></li>
-                <li class="list-group-item"><a href="/persyaratan" class="link-samping">Persyaratan</a></li>
-                <li class="list-group-item"><a href="/download" class="link-samping">Download</a></li>
+                <li class="list-group-item list-group-item-action"><a href="/#cara-daftar" class="link-samping">Cara Mendaftar</a></li>
+                <li class="list-group-item list-group-item-action"><a href="/#jadwal" class="link-samping">Jadwal Pendaftaran</a></li>
+                <li class="list-group-item list-group-item-action"><a href="/persyaratan" class="link-samping">Persyaratan</a></li>
+                <li class="list-group-item list-group-item-action"><a href="/download" class="link-samping">Download</a></li>
                 <!--<li class="list-group-item"><a href="/#cara-daftar" class="link-samping">And a fifth one</a></li> -->
             </ul>
             <!-- <button type="button" class="w-100 btn btn-lg btn-success"><i class="fa-solid fa-user-pen"></i> Daftar</button> -->

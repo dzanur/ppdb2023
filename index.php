@@ -16,6 +16,10 @@ switch ($request) {
         require __DIR__ . $viewDir . 'tikor.php';
         break;
 
+    case '/panitia':
+        require __DIR__ . $viewDir . 'admin.php';
+        break;
+
     case '/cari':
         require __DIR__ . $viewDir . 'frame.php';
         break;

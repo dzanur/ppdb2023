@@ -9,12 +9,18 @@ switch ($request) {
         $title = "Ambil Titik Koordinat";
         break;
 
+    case '/panitia':
+        $title = "Aplikasi Verifikasi";
+        break;
+
     case '/cari':
         $title = "Hasil Seleksi";
         break;
+
     case '/download':
         $title = "Download";
         break;
+
     case '/persyaratan':
         $title = "Persyaratan";
         break;

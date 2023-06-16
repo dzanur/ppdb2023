@@ -10,6 +10,11 @@ $sekolah = "";
 
 $dtks = "https://cekbansos.kemensos.go.id/";
 $pip = "https://pip.kemdikbud.go.id/home_v1/cek_nisn";
+
 $vafirmasi = "";
+$vzonasi = "";
+$vmutasi = "";
+$vakademik = "";
+$vnonakademik = "";
 
 ?>

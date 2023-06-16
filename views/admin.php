@@ -4,7 +4,7 @@
     </h4>
     <div class="row p-5">
         <div class="col-12 col-md-3 py-2 py-md-0">
-            <a href="<?= $$vafirmasi ?>" class="text-decoration-none" target="_BLANK">
+            <a href="<?= $vafirmasi ?>" class="text-decoration-none" target="_BLANK">
                 <div class="card">
                     <div class="card-header bg-danger text-light">
                         Afirmasi

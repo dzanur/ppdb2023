@@ -12,7 +12,7 @@ $jalur = $_POST['jalur'];
         border: none; /* Remove default border */
     }
     </style>
-    <iframe src="https://ppdb.bantenprov.go.id/#/<?= $jalur ?>/detail/<?= $id ?>"
+    <iframe src="<?= $linkppdb . $jalur ?>/detail/<?= $id ?>"
             frameborder="0" 
             marginheight="0" 
             marginwidth="0" 

@@ -43,12 +43,12 @@ $vjalur = $jalur1;
             <div class="input-group has-validation">
                 <select class="form-select w-2" name="jalur" required>
                     <option class="dropdown-item" value=""></i> Pilih Jalur</option>
-                    <option class="dropdown-item" value="0304">Afirmasi</option>
-                    <option class="dropdown-item" value="0300">Zonasi</option>
-                    <option class="dropdown-item" value="0303">Mutasi</option>
+                    <option class="dropdown-item" value="<?= $afirmasi ?>">Afirmasi</option>
+                    <option class="dropdown-item" value="<?= $zonasi ?>">Zonasi</option>
+                    <option class="dropdown-item" value="<?= $mutasi ?>">Mutasi</option>
                     <option class="dropdown-item" disabled><i class="fa-solid fa-graduation-cap"></i> <strong>Prestasi</strong></option>
-                    <option class="dropdown-item" value="0302">- Akademik</option>
-                    <option class="dropdown-item" value="0305">- Non Akademik</option>
+                    <option class="dropdown-item" value="<?= $akademik ?>">- Akademik</option>
+                    <option class="dropdown-item" value="<?= $nonakademik ?>">- Non Akademik</option>
                 </select>
                 <input type="search" class="form-control has-validation" name="id" pattern="{[0-9][10]}" placeholder="Masukkan NISN" aria-label="Cari" autocomplete="off" required>
                 <div class="invalid-feedback">

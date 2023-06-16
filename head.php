@@ -1,4 +1,5 @@
 <?php
+include 'config.php';
 require 'component/title.php';
 ?>
 <!DOCTYPE html>

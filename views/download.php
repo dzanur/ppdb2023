@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row pt-5 pb-5">
-        <div class="col-12 col-md-9">
+        <div class="col-12 col-md-9 pe-0 pe-md-5">
             <div class="card rounded-3 shadow-sm border-primary-600">
               <div class="card-header py-2 text-bg-primary-700 border-primary-600">
                 <h5 class="my-0 fw-normal"><i class="fa-solid fa-download"></i> Downloads</h5>

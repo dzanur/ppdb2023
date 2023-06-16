@@ -8,4 +8,7 @@ $akademik = "0302";
 $nonakademik = "0305";
 $sekolah = "";
 
+$dtks = "https://cekbansos.kemensos.go.id/";
+$pip = "https://pip.kemdikbud.go.id/home_v1";
+
 ?>

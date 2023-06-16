@@ -31,7 +31,9 @@ article {
 .paragraf {
     text-indent: 2rem;
 }
-
+.alink {
+  text-decoration: none;
+}
 #myBtn {
   display: none;
   position: fixed;

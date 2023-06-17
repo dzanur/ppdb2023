@@ -3,7 +3,7 @@ $jalur1 = isset($jalur);
 echo $jalur1;
 $vjalur = $jalur1;
 ?>
-    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary-700 navbar_top">
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary-700">
         <div class="container-fluid">
             <a class="navbar-brand mb-0 fw-bold fs-3 text-dark bg-light px-3 my-1 rounded" href="/">
                 <img src="assets/img/logo.png" alt="SMAN 9 Tangerang" width="30px">
@@ -52,7 +52,7 @@ $vjalur = $jalur1;
                     </select>
                     <input type="search" class="form-control has-validation" name="id" pattern="^[0-9]{10}$" placeholder="Masukkan NISN" aria-label="Cari" autocomplete="off" required>
                     <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    <div class="invalid-feedback">
+                    <div class="invalid-feedback text-end pe-5">
                         Angka Harus 10 digit
                     </div>
                 </div>

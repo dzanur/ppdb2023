@@ -15,7 +15,7 @@
     </div>
 </section>
 <section id="cara-daftar" class="py-5 bg-dark text-light">
-    <div class="container">
+    <div class="container my-0 my-md-5">
     <h3 class="text-center mb-5"><i class="fa-solid fa-edit"></i> Cara Mendaftar</h3>
     <div class="row">
         <div class="mb-5 mb-lg-0 col-md-12 col-lg-4 text-center">
@@ -71,7 +71,7 @@
     </div>
 </section>
 <section id="jadwal">
-    <div class="container-fluid p-5 bg-primary-400">
+    <div class="container-fluid bg-primary-400 py-0 py-md-5">
         <h3 class="text-center mb-5 text-light"><i class="fa-solid fa-calendar-days"></i> Jadwal Pendaftaran</h3>
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
           <div class="col-md-6 col-lg-3">

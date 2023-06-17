@@ -39,7 +39,7 @@ $vjalur = $jalur1;
                     <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download</a>
                 </li>
             </ul>
-            <form class="d-flex needs-validation" role="search" action="<?php if ($daftar == "true") { echo "/cari";}else {echo "";}?>" method="POST" novalidate>
+            <form class="d-flex needs-validation" role="search" action="<?php if ($daftar == "true") { echo "/cari";}else {echo "/";}?>" method="POST" novalidate>
                 <div class="input-group">
                     <select class="form-select w-2" name="jalur" required>
                         <option class="dropdown-item" value=""></i> Pilih Jalur</option>

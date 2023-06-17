@@ -40,23 +40,22 @@ $vjalur = $jalur1;
                 </li>
             </ul>
             <form class="d-flex needs-validation" role="search" action="<?php if ($daftar == "true") { echo "/cari";}else {echo "";}?>" method="POST" novalidate>
-            <div class="input-group has-validation">
-                <select class="form-select w-2" name="jalur" required>
-                    <option class="dropdown-item" value=""></i> Pilih Jalur</option>
-                    <option class="dropdown-item" value="<?= $afirmasi ?>">Afirmasi</option>
-                    <option class="dropdown-item" value="<?= $zonasi ?>">Zonasi</option>
-                    <option class="dropdown-item" value="<?= $mutasi ?>">Mutasi</option>
-                    <option class="dropdown-item" disabled><i class="fa-solid fa-graduation-cap"></i> <strong>Prestasi</strong></option>
-                    <option class="dropdown-item" value="<?= $akademik ?>">- Akademik</option>
-                    <option class="dropdown-item" value="<?= $nonakademik ?>">- Non Akademik</option>
-                </select>
-                <input type="search" class="form-control has-validation" name="id" pattern="{[0-9][10]}" placeholder="Masukkan NISN" aria-label="Cari" autocomplete="off" required>
-                <div class="invalid-feedback">
-                    hanya boleh angka...!
+                <div class="input-group">
+                    <select class="form-select w-2" name="jalur" required>
+                        <option class="dropdown-item" value=""></i> Pilih Jalur</option>
+                        <option class="dropdown-item" value="<?= $afirmasi ?>">Afirmasi</option>
+                        <option class="dropdown-item" value="<?= $zonasi ?>">Zonasi</option>
+                        <option class="dropdown-item" value="<?= $mutasi ?>">Mutasi</option>
+                        <option class="dropdown-item" disabled><i class="fa-solid fa-graduation-cap"></i> <strong>Prestasi</strong></option>
+                        <option class="dropdown-item" value="<?= $akademik ?>">- Akademik</option>
+                        <option class="dropdown-item" value="<?= $nonakademik ?>">- Non Akademik</option>
+                    </select>
+                    <input type="search" class="form-control has-validation" name="id" pattern="^[0-9]{10}$" placeholder="Masukkan NISN" aria-label="Cari" autocomplete="off" required>
+                    <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <div class="invalid-feedback">
+                        Angka Harus 10 digit
+                    </div>
                 </div>
-                <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </div>
-                <!-- <input class="form-control me-2" type="search" name="id" placeholder="Masukkan NISN" aria-label="Search"> -->
             </form>
             </div>
         </div>

@@ -20,5 +20,14 @@
         <?php
         require_once 'sidebar.php';
         ?>
+        <style>
+          body {
+            height: 250px;
+          }
+          .full-height {
+            height: 100%;
+          }
+        </style>
     </div>
-</div>
+  </div>
+  <div class="full-height">..</div>

@@ -16,7 +16,7 @@
                     <li>Ijazah SMP/Sederajat atau surat keterangan yang setara dengan ijazah SMP/ijazah program paket B/Ijazah satuan pendidikan luar Negeri yang dinilai/dihargai sama/setingkat dengan SMP;</li>
                     <li>Nilai rapor semester 1 (satu) sampai dengan semester 5 (lima) yang dilegalisir.</li>
                     <li>Akta Kelahiran / surat keterangan lahir dengan batas usia paling tinggi 21 (dua puluh satu) tahun pada tanggal 19 Juni 2023;</li>
-                    <li>Pas photo berwama ukuran 3x4 sebanyak 2 (dua) lembar dengan latar belakang wama merah.</li>
+                    <li>Pas photo berwarna ukuran 3x4 dengan latar belakang warna merah.</li>
                     <li>Tangkapan layar titik ke titik dari lokasi tempat tinggal dan satuan pendidikan.</li>
                     <li>Calon peserta didik baru penyandang disabilitas dikecualikan dari ketentuan persyaratan batas usia dan ijazah atau dokumen lain yang menyatakan kelulusan.</li>
                 </ol>
@@ -179,7 +179,7 @@
                                     <div id="collapse22" class="accordion-collapse collapse" aria-labelledby="1" data-bs-parent="#accordion2">
                                         <div class="accordion-body cap">
                                             <article>
-                                                <p class="paragraf">Jalur prestasi non akademik adalah penghargaan pada tingkat intemasional, nasional, provinsi, kabupaten/kota yang diselenggarakan oleh lembaga Pemerintah atau induk organisasi yang diakui oleh Pemerintah, pada bidang seni, olahraga, keagamaan, dan lainnya dengan rincian sebagaimana pada <strong> huruf a angka 2.</strong></p>
+                                                <p class="paragraf">Jalur prestasi non akademik adalah penghargaan pada tingkat intemasional, nasional, provinsi, kabupaten/kota yang diselenggarakan oleh lembaga Pemerintah atau induk organisasi yang diakui oleh Pemerintah, pada bidang seni, olahraga, keagamaan, dan lainnya dengan rincian sebagaimana pada menu prestasi akademik poin 4</p>
                                             </article>
                                             <ol>
                                                 <li>Sertifikat penghargaan kejuaraan, dilegalisir dengan ketentuan sebagai berikut:</li>
@@ -206,7 +206,7 @@
                                                 <li>Jika terdapat ketidaksesuaian antara hasil uji kompetensi dengan sertifikat yang diunggah, maka panitia tingkat satuan pendidikan berhak menolak ajuan pendaftaran calon peserta didik;</li>
                                                 <li>Dalam hal pendaftaran jalur prestasi memiliki hasil seleksi yang sama, maka penentuan peserta didik dalam jalur prestasi diprioritaskan calon peserta didik yang memiliki domisili terdekat dengan satuan pendidikan;</li>
                                                 <li>Dalam hal ditemukan hasil yang sama juga. maka calon peserta didik dengan usia yang lebih tua untuk diprioritaskan;</li>
-                                                <li>Apabila dokumen yang diberikan tidak sesuai dengan keadaan sebenamya, maka lembaga yang mengeluarkan dan orang tua/wali calon peserta didik akan diproses secara hukum.</li>
+                                                <li>Apabila dokumen yang diberikan tidak sesuai dengan keadaan sebenarnya, maka lembaga yang mengeluarkan dan orang tua/wali calon peserta didik akan diproses secara hukum.</li>
                                             </ol>
                                         </div>
                                     </div>

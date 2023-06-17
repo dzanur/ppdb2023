@@ -64,6 +64,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="header4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            Cara Mengambil Tangkapan Layar Dari Titik Ke Titik
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="1" data-bs-parent="#accordion1">
+                        <div class="accordion-body cap">
+                            <iframe width="100%" height="450" src="https://www.youtube.com/embed/4cmNnyRvJbU" title="Cara Ukur Jarak dan Screenshot Lokasi Rumah/Tempat Tinggal ke Sekolah menggunakan Smartphone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>

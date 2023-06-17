@@ -24,7 +24,7 @@ $vjalur = $jalur1;
                     <a class="nav-link <?php if($request == "/tikor") echo "active"; ?>" href="tikor"><i class="fa-solid fa-location-dot"></i> Tikor</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-users"></i> Daftar</a>
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-edit"></i> Daftar</a>
                     <ul class="dropdown-menu bg-primary-700 shadow-lg px-3">
                         <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdb . $afirmasi . "01/daftar' target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-address-card"></i> Afirmasi</a></li>
                         <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdb . $zonasi . "01/daftar'  target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-street-view"></i> Zonasi</a></li>
@@ -34,6 +34,17 @@ $vjalur = $jalur1;
                         <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdb . $akademik . "01/daftar'  target='_BLANK'";}else {echo "";}?>>- Akademik</a></li>
                         <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdb . $nonakademik . "01/daftar'  target='_BLANK'";}else {echo "";}?>>- Non Akademik</a></li>
                     </ul>
+                </li>
+                <?php
+                // if (condition) {
+                //     # code...
+                // } else {
+                //     # code...
+                // }
+                
+                ?>
+                <li class="nav-item">
+                    <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download</a>

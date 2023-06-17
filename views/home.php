@@ -14,9 +14,25 @@
         </div>
     </div>
 </section>
+<section class="pt-3 pb-5 bg-success-800 text-light">
+    <div class="container my-0 my-md-5">
+        <h3 class="mb-5 text-center"><i class="fa-solid fa-info"></i> Info Penting</h3>
+        <div class="row">
+            <div class="col-12 col-md-7 mb-3">
+                <img src="assets/img/info.png" width="100%" alt="Poin Penting">
+            </div>
+            <div class="col-12 col-md-5">
+                <article>
+                    <p class="paragraf">Setiap melakukan pendaftaran pada jalur apapun, silahkan klik dibagian pin titik koordinat seperti contoh ini. Untuk mendapatkan titik koordinat sesuai dengan alamat yang tertera pada Kartu Keluarga. </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="cara-daftar" class="py-5 bg-dark text-light">
     <div class="container my-0 my-md-5">
-    <h3 class="text-center mb-5"><i class="fa-solid fa-edit"></i> Cara Mendaftar</h3>
+    <h3 class="text-center mt-4 mb-5"><i class="fa-solid fa-edit"></i> Cara Mendaftar</h3>
     <div class="row">
         <div class="mb-5 mb-lg-0 col-md-12 col-lg-4 text-center">
             <p>
@@ -83,8 +99,8 @@
     </div>
 </section>
 <section id="jadwal">
-    <div class="container-fluid bg-primary-400 py-0 py-md-5">
-        <h3 class="text-center mb-5 text-light"><i class="fa-solid fa-calendar-days"></i> Jadwal Pendaftaran</h3>
+    <div class="container-fluid bg-primary-400 py-5">
+        <h3 class="text-center mt-4 mb-5 text-light"><i class="fa-solid fa-calendar-days"></i> Jadwal Pendaftaran</h3>
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
           <div class="col-md-6 col-lg-3">
             <div class="card mb-4 rounded-3 shadow-sm border-success">

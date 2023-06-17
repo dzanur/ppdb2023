@@ -43,9 +43,9 @@ $vjalur = $jalur1;
                 // }
                 
                 ?>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download</a>
                 </li>

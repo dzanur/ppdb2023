@@ -7,7 +7,7 @@
               </div>
               <div class="card-body">
                 <ul class="list-group">
-                    <li class="list-group-item"><a href="../assets/file/SPTJM PPDB 2023 SMAN 9 TANGERANG.pdf" class="link-samping"><i class="fa-solid fa-download"></i> Surat Pernyataan Tanggung Jawab Mutlak</a></li>
+                    <li class="list-group-item"><a href="../assets/file/SPTJM.pdf" class="link-samping"><i class="fa-solid fa-download"></i> Surat Pernyataan Tanggung Jawab Mutlak</a></li>
                     <!--<li class="list-group-item"><a href="/#jadwal" class="link-samping">Jadwal Pendaftaran</a></li>-->
                     <!--<li class="list-group-item"><a href="/persyaratan" class="link-samping">Persyaratan</a></li>-->
                     <!-- <li class="list-group-item"><a href="/#cara-daftar" class="link-samping">A fourth item</a></li>

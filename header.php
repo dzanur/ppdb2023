@@ -26,13 +26,13 @@ $vjalur = $jalur1;
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-users"></i> Daftar</a>
                     <ul class="dropdown-menu bg-primary-700 shadow-lg px-3">
-                        <li><a class="dropdown-item nav-link" href="<?= $linkppdb . $afirmasi . "01/daftar"?>" target="_BLANK"><i class="fa-solid fa-address-card"></i> Afirmasi</a></li>
-                        <li><a class="dropdown-item nav-link" href="<?= $linkppdb . $zonasi . "01/daftar"?>" target="_BLANK"><i class="fa-solid fa-street-view"></i> Zonasi</a></li>
-                        <li><a class="dropdown-item nav-link" href="<?= $linkppdb . $mutasi . "01/daftar"?>" target="_BLANK"><i class="fa-solid fa-right-left"></i> Perpindahan Tugas Orang Tua</a></li>
+                        <li><a class="dropdown-item nav-link" href="<?php if ($daftar == "true") { echo $linkppdb . $afirmasi . "01/daftar";}else {echo "";}?>" target="_BLANK"><i class="fa-solid fa-address-card"></i> Afirmasi</a></li>
+                        <li><a class="dropdown-item nav-link" href="<?php if ($daftar == "true") { echo $linkppdb . $zonasi . "01/daftar";}else {echo "";}?>" target="_BLANK"><i class="fa-solid fa-street-view"></i> Zonasi</a></li>
+                        <li><a class="dropdown-item nav-link" href="<?php if ($daftar == "true") { echo $linkppdb . $mutasi . "01/daftar";}else {echo "";}?>" target="_BLANK"><i class="fa-solid fa-right-left"></i> Perpindahan Tugas Orang Tua</a></li>
                         <li><hr></li>
                         <li><a class="dropdown-item nav-link disabled" href=""><i class="fa-solid fa-graduation-cap"></i> <strong>Prestasi</strong></a></li>
-                        <li><a class="dropdown-item nav-link" href="<?= $linkppdb . $akademik . "01/daftar"?>" target="_BLANK">- Akademik</a></li>
-                        <li><a class="dropdown-item nav-link" href="<?= $linkppdb . $nonakademik . "01/daftar"?>" target="_BLANK">- Non Akademik</a></li>
+                        <li><a class="dropdown-item nav-link" href="<?php if ($daftar == "true") { echo $linkppdb . $akademik . "01/daftar";}else {echo "";}?>" target="_BLANK">- Akademik</a></li>
+                        <li><a class="dropdown-item nav-link" href="<?php if ($daftar == "true") { echo $linkppdb . $nonakademik . "01/daftar";}else {echo "";}?>" target="_BLANK">- Non Akademik</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

@@ -48,7 +48,6 @@
                     </h2>
                     <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="1" data-bs-parent="#accordion1">
                         <div class="accordion-body cap">
-                            <!--<iframe width="100%" height="450" src="https://www.youtube.com/embed/8798pD5CY_0" title="CARA DAFTAR PPDB SMAN 9 TANGERANG JALUR ZONASI TAHUN 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>			-->
                             Belum Tersedia...
                         </div>
                     </div>
@@ -59,13 +58,13 @@
                             Cara Menghitung Rata-Rata
                         </button>
                     </h2>
-                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="1" data-bs-parent="#accordion3">
+                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="1" data-bs-parent="#accordion1">
                         <div class="accordion-body cap">
-                            <!--<iframe width="100%" height="450" src="https://www.youtube.com/embed/fL2LPYprGmc" title="MENGHITUNG NILAI RATA RATA RAPORT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>			-->
                             Belum Tersedia...
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

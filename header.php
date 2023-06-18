@@ -13,7 +13,7 @@ $vjalur = $jalur1;
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+            <ul class="navbar-nav mx-auto mb-2 mb-md-0 ps-3 ps-md-0">
                 <li class="nav-item">
                     <a class="nav-link <?php if($request == "/") echo "active"; ?>" aria-current="page" href="/"><i class="fa-solid fa-house-chimney"></i> Home</a>
                 </li>

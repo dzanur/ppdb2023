@@ -207,8 +207,8 @@ function distance($latsekolah, $longsekolah, $lat2, $lon2, $unit) {
                                     <th scope="row"><?=$i++?></th>
                                     <td>Titik Koordinat</td>
                                     <td>
-                                        <a href="https://www.google.com/maps/dir/SMA+Negeri+9+Tangerang,+Jl.+H.+Jali+No.9,+RT.001%2FRW.002,+Kunciran+Jaya,+Kec.+Pinang,+Kota+Tangerang,+Banten+15144/-6.2239237,106.6845417/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><?= $lintang . "," . $bujur;?></a>
-                                        <!-- <a href="https://www.google.com/maps/search/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><?= $lintang . "," . $bujur;?></a> -->
+                                        <a class="btn btn-danger btn-sm" href="https://www.google.com/maps/dir/SMA+Negeri+9+Tangerang,+Jl.+H.+Jali+No.9,+RT.001%2FRW.002,+Kunciran+Jaya,+Kec.+Pinang,+Kota+Tangerang,+Banten+15144/-6.2239237,106.6845417/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><i class="fa-solid fa-location-dot"></i> <?= $lintang . "," . $bujur;?></a>
+                                        <!-- <a href="https://www.google.com/maps/search/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><i class="fa-solid fa-location-dot"></i> <?= $lintang . "," . $bujur;?></a> -->
                                     </td>
                                 </tr>
                                 <tr>

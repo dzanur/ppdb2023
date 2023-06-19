@@ -53,7 +53,7 @@ if (isset($_POST['npsn']) == "") {
                                     <input type="number" class="form-control" id="npsn" name="npsn" value="<?=$npsn?>">
                                     </div>
                                 </div>
-                                <button class="btn btn-warning" type="submit"><i class="fa-brands fa-searchengin"></i> Cari</button>
+                                <button class="btn btn-warning px-5 py-2" type="submit"><i class="fa-brands fa-searchengin"></i> Cari</button>
                             </form>
                         </div>
                     </div>

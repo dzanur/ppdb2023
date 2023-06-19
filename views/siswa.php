@@ -9,6 +9,8 @@ $i = 1;
 
 $json_data = file_get_contents($api_url);
 $response_data = json_decode($json_data);
+$message = isset($response_data->message);
+
 
 if ($_POST['nisn'] == "") {
     $Keterangan = $response_data[0]->Keterangan;
@@ -25,6 +27,14 @@ if ($_POST['nisn'] == "") {
     <div class="alert alert-danger d-flex align-items-center m-5" role="alert">
         <div>
         <i class="fa-solid fa-triangle-exclamation"></i> <?=$Keterangan;?>
+        </div>
+    </div>
+    <?php
+} elseif ($message == 1) {
+    ?>
+    <div class="alert alert-danger d-flex align-items-center m-5" role="alert">
+        <div>
+        <i class="fa-solid fa-triangle-exclamation"></i> Data yang Anda cari tidak ditemukan atau peserta didik tidak berada di Tingkat Akhir.
         </div>
     </div>
     <?php

@@ -36,8 +36,8 @@ if (isset($_POST['npsn']) == "") {
             <div class="col-12 col-md-4">
                 <div id="sidebarid" class="sticky-top">
                     <div class="card">
-                        <div class="card-header bg-warning">
-                            Cari Data
+                        <div class="card-header bg-warning py-3">
+                        <i class="fa-brands fa-searchengin"></i> <strong>Cari Data</strong>
                         </div>
                         <div class="card-body">
                             <form action="" method="POST">
@@ -53,7 +53,7 @@ if (isset($_POST['npsn']) == "") {
                                     <input type="number" class="form-control" id="npsn" name="npsn" value="<?=$npsn?>">
                                     </div>
                                 </div>
-                                <button class="btn btn-warning" type="submit">Cari</button>
+                                <button class="btn btn-warning" type="submit"><i class="fa-brands fa-searchengin"></i> Cari</button>
                             </form>
                         </div>
                     </div>
@@ -61,8 +61,7 @@ if (isset($_POST['npsn']) == "") {
             </div>
             <div class="col-12 col-md-8 pt-3 pt-md-0">
                 <div class="card">
-                    <div class="card-header bg-success text-light">
-                        <div class="d-inline-flex p-2">Data Identitas</div>
+                    <div class="card-header bg-success text-light py-3"><i class="fa-solid fa-user"></i> <strong>Data Identitas</strong>
                         <!-- <a href="export" class=" ms-5 btn btn-success btn-sm d-inline-flex p-2 text-end"><i class="fa-solid fa-file-excel"></i></a> -->
                         <!-- <span class="d-flex text-start">Data Identitas
                         <a class="text-end">Export</a>

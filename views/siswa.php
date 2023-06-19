@@ -98,6 +98,27 @@ if ($tingkat_pendidikan > 12) {
 } else {
     $tingkat = "PAUD";
 }
+
+
+function distance($latsekolah, $longsekolah, $lat2, $lon2, $unit) {
+ 
+    $theta = $longsekolah - $lon2;
+    $dist = sin(deg2rad($latsekolah)) * sin(deg2rad($lat2)) +  cos(deg2rad($latsekolah)) * cos(deg2rad($lat2)) * cos(deg2rad($theta));
+    $dist = acos($dist);
+    $dist = rad2deg($dist);
+    $miles = $dist * 60 * 1.1515;
+    $unit = strtoupper($unit);
+   
+    if ($unit == "K") {
+        return ($miles * 1.609344);
+    } else if ($unit == "N") {
+        return ($miles * 0.8684);
+    } else if ($unit == "M") {
+        return ($miles * 1609.34);
+    } else {
+        return $miles;
+    }
+  }
 ?>
                     <div class="card-body">
                         <table class="table">
@@ -125,7 +146,7 @@ if ($tingkat_pendidikan > 12) {
                                 <tr>
                                     <th scope="row"><?=$i++?></th>
                                     <td>Sekolah</td>
-                                    <td><a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/<?= $sekolah_id ;?>" class="btn btn-success btn-sm text-decoration-none" target="_BLANK">lihat</td>
+                                    <td><a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/<?= $sekolah_id ;?>" class="btn btn-success btn-sm text-decoration-none" target="_BLANK"><i class="fa-solid fa-building-columns"></i> lihat</td>
                                 </tr>
                                 <tr>
                                     <th scope="row"><?=$i++?></th>
@@ -186,8 +207,14 @@ if ($tingkat_pendidikan > 12) {
                                     <th scope="row"><?=$i++?></th>
                                     <td>Titik Koordinat</td>
                                     <td>
-                                        <a href="https://www.google.com/maps/dir/SMA+Negeri+9+Tangerang,+Jl.+H.+Jali+No.9,+RT.001%2FRW.002,+Kunciran+Jaya,+Kec.+Pinang,+Kota+Tangerang,+Banten+15144/-6.2239237,106.6845417/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><?= $lintang . "," . $bujur;?></a></td>
-                                        <!-- <a href="https://www.google.com/maps/search/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><?= $lintang . "," . $bujur;?></a></td> -->
+                                        <a href="https://www.google.com/maps/dir/SMA+Negeri+9+Tangerang,+Jl.+H.+Jali+No.9,+RT.001%2FRW.002,+Kunciran+Jaya,+Kec.+Pinang,+Kota+Tangerang,+Banten+15144/-6.2239237,106.6845417/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><?= $lintang . "," . $bujur;?></a>
+                                        <!-- <a href="https://www.google.com/maps/search/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><?= $lintang . "," . $bujur;?></a> -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><?=$i++?></th>
+                                    <td>Jarak Ke 9</td>
+                                    <td><?= number_format(distance($latsekolah, $longsekolah, $lintang, $bujur, "M"), 2, ',', '.') . " Meter"?></td>
                                 </tr>
                             </tbody>
                         </table>

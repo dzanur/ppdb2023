@@ -25,6 +25,10 @@ switch ($request) {
         $title = "Persyaratan";
         break;
 
+    case '/user':
+        $title = "Hasil Pencarian";
+        break;
+
     default:
         http_response_code(404);
         $title = "Halaman tidak ditemukan";

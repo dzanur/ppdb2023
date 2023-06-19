@@ -10,7 +10,7 @@
             <h1 class="display-9 fw-bold">Website PPDB SMAN 9 Tangerang</h1>
             <p class="col-md-8 fs-4">Lihat informasi Pendaftaran Peserta Didik Baru</p>
             <a href="#cara-daftar" class="btn btn-warning-400" type="button"><i class="fa-solid fa-edit text-dark-300"></i> Cara Daftar <i class="fa-solid fa-angles-right"></i></a>
-            <a href="#jadwal" class="ms-0 ms-lg-3 btn btn-success" type="button"><i class="fa-solid fa-calendar-days text-light"></i> Lihat Jadwal <i class="fa-solid fa-angles-right"></i></a>
+            <a href="#jadwal" class="ms-n1 ms-lg-3 btn btn-success" type="button"><i class="fa-solid fa-calendar-days text-light"></i> Lihat Jadwal <i class="fa-solid fa-angles-right"></i></a>
         </div>
     </div>
 </section>

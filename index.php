@@ -34,6 +34,12 @@ switch ($request) {
     case '/persyaratan':
         require __DIR__ . $viewDir . 'persyaratan.php';
         break;
+    case '/kemdikbud':
+        require __DIR__ . $viewDir . 'data.php';
+        break;
+    case '/export':
+        require __DIR__ . $viewDir . 'data.php';
+        break;
 
     default:
         http_response_code(404);

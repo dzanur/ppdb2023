@@ -30,7 +30,7 @@ if (isset($_POST['npsn']) == "") {
   }); 
   // DOMContentLoaded  end
 </script>
-<div class="container">
+<div class="container bg-light">
     <div class="py-5">
         <div class="row">
             <div class="col-12 col-md-4">

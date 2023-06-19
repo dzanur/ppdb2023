@@ -185,7 +185,9 @@ if ($tingkat_pendidikan > 12) {
                                 <tr>
                                     <th scope="row"><?=$i++?></th>
                                     <td>Titik Koordinat</td>
-                                    <td><a href="https://www.google.com/maps/search/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><?= $lintang . "," . $bujur;?></a></td>
+                                    <td>
+                                        <a href="https://www.google.com/maps/dir/SMA+Negeri+9+Tangerang,+Jl.+H.+Jali+No.9,+RT.001%2FRW.002,+Kunciran+Jaya,+Kec.+Pinang,+Kota+Tangerang,+Banten+15144/-6.2239237,106.6845417/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><?= $lintang . "," . $bujur;?></a></td>
+                                        <!-- <a href="https://www.google.com/maps/search/<?= $lintang . "," . $bujur;?>" class="text-decoration-none text-dark" target="_BLANK"><?= $lintang . "," . $bujur;?></a></td> -->
                                 </tr>
                             </tbody>
                         </table>

@@ -25,7 +25,7 @@ switch ($request) {
         $title = "Persyaratan";
         break;
 
-    case '/user':
+    case '/kemdikbud':
         $title = "Hasil Pencarian";
         break;
 

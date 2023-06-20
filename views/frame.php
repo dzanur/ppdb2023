@@ -1,5 +1,5 @@
 <?php
-$id = isset($_POST['id']);
+$id = $_POST['id'];
 $jalur = $_POST['jalur'];
 
 ?>

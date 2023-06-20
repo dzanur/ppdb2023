@@ -42,7 +42,7 @@
             </a>
         </div>
         <div class="col-12 col-md-4 py-2 py-md-0">
-            <a href="<?= $vafirmasi ?>" class="text-decoration-none" target="_BLANK">
+            <a href="<?= $pipmadrasah ?>" class="text-decoration-none" target="_BLANK">
                 <div class="card">
                     <div class="card-header bg-danger-400 text-light">
                         Afirmasi

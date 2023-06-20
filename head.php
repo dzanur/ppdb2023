@@ -12,7 +12,7 @@ require 'component/title.php';
     <meta name="theme-color" content="#122c91">
     <meta name="description" content="Website PPDB SMAN 9 Tangerang">
     <meta name="keywords" content="PPDB, PPDB 2023/2024, 2023/2024, SMAN 9 TANGERANG, Penerimaan Siswa Baru">
-    <link rel="manifest" href="manifest.json"/>
+    <link rel="manifest" href="assets/favicon/manifest.json"/>
     <title><?= $title; ?> - PPDB SMAN 9 Tangerang</title>
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="assets/favicon/android-icon-144x144.png" type="image/png">

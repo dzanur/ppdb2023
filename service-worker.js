@@ -3,7 +3,7 @@ const CACHE_NAME  = 'ppdb-sman9tangerang-sch-id';
 
 /* Add relative URL of all the static content you want to store in
  * cache storage (this will help us use our app offline)*/
-let resourcesToCache = ["vendor/bootstrap/css/bootstrap.css", "assets/css/style.css", "assets/js/script.js", "assets/js/tikor.js"];
+let resourcesToCache = ["vendor/bootstrap/css/bootstrap.css", "assets/css/style.css", "assets/js/script.js", "assets/js/tikor.js", "index.php"];
 
 self.addEventListener("install", e=>{
     e.waitUntil(

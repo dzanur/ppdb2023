@@ -4,7 +4,7 @@
         <footer class="d-flex justify-content-between align-items-center pt-2 pb-5  mt-3 shadow-top">
           <div class="col-md-4 d-flex ps-lg-5 align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-light text-decoration-none lh-1">
-                <img src="assets/img/logo.png" width ="40px" alt="">
+                <img src="assets/img/logo.png" width ="40px" alt="SMAN 9 Tangerang">
             </a>
             <span class="mb-3 mb-md-0 text-light">© 2021-<?php echo date("Y"); ?> SMAN 9 Tangerang</span>
           </div>

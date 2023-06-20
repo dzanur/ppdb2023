@@ -14,6 +14,32 @@
         </div>
     </div>
 </section>
+<section class="pt-3 pb-5 bg-light">
+    <div class="container my-0 my-md-5">
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="card bg-danger-100">
+                    <div class="card-body text-center p-4">
+                        <i class="fa-solid fa-location-crosshairs fa-beat fa-2xl"></i>
+                    <p>
+                        Lakukan pendaftaran di rumah untuk mendapatkan hasil yang lebih akurat
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+                <div class="card bg-warning-100">
+                    <div class="card-body text-center p-4">
+                    <span class="text-center mb-4"><i class="fa-solid fa-stethoscope fa-bounce fa-2xl"></i></span>
+                    <p>
+                        Selalu lakukan pengecekan status anda dengan cara melakukan pencarian pada menu untuk memantau status pendaftaran anda ☺️
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="pt-3 pb-5 bg-success-800 text-light">
     <div class="container my-0 my-md-5">
         <h3 class="mb-5 text-center"><i class="fa-solid fa-info"></i> Info Penting</h3>
@@ -68,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <!-- <div class="accordion-item">
                     <h2 class="accordion-header" id="header3">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                             Cara Menghitung Rata-Rata
@@ -79,7 +105,7 @@
                             Belum Tersedia...
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="header4">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">

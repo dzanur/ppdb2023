@@ -21,5 +21,21 @@
 <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> -->
 <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
 <script src="assets/js/script.js"></script>
+<script>
+  var base_url = window.location.origin;
+  document.addEventListener('DOMContentLoaded', init, false);
+
+  function init() {
+      if ('serviceWorker' in navigator && navigator.onLine) {
+          navigator.serviceWorker.register( base_url + '/service-worker.js')
+          .then((reg) => {
+              console.log('Registrasi service worker Berhasil', reg);
+          }, (err) => {
+              console.error('Registrasi service worker Gagal', err);
+          });
+      }
+  }
+</script>
+
 </body>
 </html>

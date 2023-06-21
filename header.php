@@ -61,7 +61,7 @@ $vjalur = $jalur1;
                         <option class="dropdown-item" value="<?= $akademik ?>">- Akademik</option>
                         <option class="dropdown-item" value="<?= $nonakademik ?>">- Non Akademik</option>
                     </select>
-                    <input type="search" class="form-control has-validation" name="id" pattern="^[0-9]{10}$" placeholder="Masukkan NISN" aria-label="Cari" autocomplete="off" required>
+                    <input type="search" class="form-control has-validation" name="id" pattern="^[0-9]{10}$" placeholder="NISN / No. Pendaftaran" aria-label="Cari" autocomplete="off" required>
                     <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     <div class="invalid-feedback text-end pe-5">
                         Angka Harus 10 digit

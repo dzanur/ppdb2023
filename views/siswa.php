@@ -11,7 +11,6 @@ $json_data = file_get_contents($api_url);
 $response_data = json_decode($json_data);
 $message = isset($response_data->message);
 
-
 if ($_POST['nisn'] == "") {
     $Keterangan = $response_data[0]->Keterangan;
     ?>
@@ -40,10 +39,14 @@ if ($_POST['nisn'] == "") {
     <?php
 } else {
     
-
-
+// API Sekolah
+$apisekolah ="https://api-sekolah-indonesia.vercel.app/sekolah?npsn=" . $npsn;
+$namasekolah = file_get_contents($apisekolah);
+$response_data_sekolah = json_decode($namasekolah, true);
+$sekolah = $response_data_sekolah['dataSekolah'][0];
 // echo $Keterangan;
 
+// API Siswa Kemdikbud
 $sekolah_id = $response_data[0]->sekolah_id;
 // $kode_wilayah = $response_data[0]->kode_wilayah;
 $nama = $response_data[0]->nama;
@@ -156,7 +159,7 @@ function distance($latsekolah, $longsekolah, $lat2, $lon2, $unit) {
                                 <tr>
                                     <th scope="row"><?=$i++?></th>
                                     <td>Sekolah</td>
-                                    <td><a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/<?= $sekolah_id ;?>" class="btn btn-success btn-sm text-decoration-none" target="_BLANK"><i class="fa-solid fa-building-columns"></i> lihat</td>
+                                    <td><a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/<?= $sekolah_id ;?>" class="btn btn-success btn-sm text-decoration-none" target="_BLANK"><i class="fa-solid fa-building-columns"></i> <?= $sekolah['sekolah'] ;?></td>
                                 </tr>
                                 <tr>
                                     <th scope="row"><?=$i++?></th>

@@ -15,7 +15,9 @@ if(isset($_POST['namasekolah']) == "") {
     $namasekolah = "";
 }else {
     $namasekolah = $_POST['namasekolah'];
+    $npsn = $_POST['npsn'];
 }
+
 
 
 

@@ -68,7 +68,12 @@ if ($response = $response_data->status == null) {
                                 <tr>
                                     <th scope="row"><?=$i++?></th>
                                     <td>NPSN</td>
-                                    <td><?= ucwords(strtolower($sekolah['npsn'])) ;?></td>
+                                    <td>
+                                        <form action="" method="post">
+                                            <input type="hidden" name="npsn" value="<?= $sekolah['npsn'] ;?>">
+                                            <button class="btn btn-primary btn-sm" type="submit"><?= $sekolah['npsn'] ;?></button>
+                                        </form>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th scope="row"><?=$i++?></th>

@@ -20,7 +20,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 pt-3 pt-md-0">
                 <a href="<?= $vzonasi ?>" class="text-decoration-none" target="_BLANK">
                     <div class="card">
                         <div class="card-body py-5 bg-primary text-center text-light rounded">

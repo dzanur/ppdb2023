@@ -1,8 +1,8 @@
-<h4 class="text-center pt-5">
-    Aplikasi Verifikasi
-</h4>
 <section class="bg-primary-100">
     <div class="container p-5">
+        <h4 class="text-center py-3 fw-bold">
+            <span class="px-5 py-2 bg-light rounded text-decoration-underline">Aplikasi Verifikasi</span>
+        </h4>
         <div class="row pt-3">
             <div class="col-12 col-md-6">
                 <a href="/kemdikbud" class="text-decoration-none" target="_BLANK">
@@ -31,51 +31,49 @@
                 </a>
             </div>
         </div>
+        <div class="row pt-3 mb-5">
+            <div class="col-12 col-md-4 py-2 py-md-0">
+                <a href="<?= $dtks ?>" class="text-decoration-none" target="_BLANK">
+                    <div class="card">
+                        <div class="card-header bg-danger-400 text-light">
+                            Afirmasi
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">DTKS</h5>
+                            <p class="card-text">Cek Program DTKS</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4 py-2 py-md-0">
+                <a href="<?= $pip ?>" class="text-decoration-none" target="_BLANK">
+                    <div class="card">
+                        <div class="card-header bg-danger-400 text-light">
+                            Afirmasi
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">PIP</h5>
+                            <p class="card-text">Cek Program PIP</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4 py-2 py-md-0">
+                <a href="<?= $pipmadrasah ?>" class="text-decoration-none" target="_BLANK">
+                    <div class="card">
+                        <div class="card-header bg-danger-400 text-light">
+                            Afirmasi
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">PIP Madrasah</h5>
+                            <p class="card-text">Cek Program PIP Madrasah</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
 </section>
 <div class="container">
-    <div class="row pt-3">
-    </div>
-    <div class="row pt-3 mb-5">
-        <div class="col-12 col-md-4 py-2 py-md-0">
-            <a href="<?= $dtks ?>" class="text-decoration-none" target="_BLANK">
-                <div class="card">
-                    <div class="card-header bg-danger-400 text-light">
-                        Afirmasi
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">DTKS</h5>
-                        <p class="card-text">Cek Program DTKS</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-4 py-2 py-md-0">
-            <a href="<?= $pip ?>" class="text-decoration-none" target="_BLANK">
-                <div class="card">
-                    <div class="card-header bg-danger-400 text-light">
-                        Afirmasi
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">PIP</h5>
-                        <p class="card-text">Cek Program PIP</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-4 py-2 py-md-0">
-            <a href="<?= $pipmadrasah ?>" class="text-decoration-none" target="_BLANK">
-                <div class="card">
-                    <div class="card-header bg-danger-400 text-light">
-                        Afirmasi
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">PIP Madrasah</h5>
-                        <p class="card-text">Cek Program PIP Madrasah</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
 
 </div>

@@ -24,8 +24,13 @@
                 <a href="<?= $vzonasi ?>" class="text-decoration-none" target="_BLANK">
                     <div class="card">
                         <div class="card-body py-5 bg-primary text-center text-light rounded">
-                            <h5 class="card-title">Verifikasi</h5>
-                            <p class="card-text">Panel Verifikasi Operator</p>
+                            <div class="col">
+                                <img src="https://3.bp.blogspot.com/-Gdq0I6Kyjr8/WIhsOTR8i1I/AAAAAAAABdw/reGeCus05TAf9JXgYYxPBCP-UeYxueH1gCLcB/s320/PPDB%2BOnline.png" class="img-thumbnail rounded float-start" width="60" alt="SIAP PPDB">
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Verifikasi</h5>
+                                <p class="card-text">Panel Verifikasi Operator</p>
+                            </div>
                         </div>
                     </div>
                 </a>

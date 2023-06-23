@@ -3,7 +3,7 @@
         <h4 class="text-center py-3 fw-bold">
             <span class="px-5 py-2 bg-light rounded text-decoration-underline">Aplikasi Verifikasi</span>
         </h4>
-        <div class="row pt-3">
+        <div class="row pt-5">
             <div class="col-12 col-md-6">
                 <a href="/kemdikbud" class="text-decoration-none" target="_BLANK">
                     <div class="card">

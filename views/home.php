@@ -18,10 +18,20 @@
     <div class="container my-0 my-md-5">
         <div class="row">
             <div class="col-12 col-lg-4">
+                <div class="card bg-success-100">
+                    <div class="card-body text-center p-4">
+                        <i class="fa-solid fa-user-check fa-beat fa-2xl mb-3"></i>
+                    <p class="mt-3">
+                        Hasil seleksi PPDB SMAN 9 Tangerang Jalur Afirmasi akan dibuka pada tanggal 30 Juni 2023 pukul 08:00 WIB
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
                 <div class="card bg-danger-100">
                     <div class="card-body text-center p-4">
-                        <i class="fa-solid fa-location-crosshairs fa-beat fa-2xl"></i>
-                    <p>
+                        <i class="fa-solid fa-location-crosshairs fa-beat fa-2xl mb-3"></i>
+                    <p class="mt-3">
                         Lakukan pendaftaran di rumah untuk mendapatkan hasil yang lebih akurat
                     </p>
                     </div>
@@ -30,8 +40,8 @@
             <div class="col-12 col-lg-4 mt-3 mt-lg-0">
                 <div class="card bg-warning-100">
                     <div class="card-body text-center p-4">
-                    <span class="text-center mb-4"><i class="fa-solid fa-stethoscope fa-bounce fa-2xl"></i></span>
-                    <p>
+                    <span class="text-center mb-4"><i class="fa-solid fa-stethoscope fa-beat fa-2xl mb-3"></i></span>
+                    <p class="mt-3">
                         Selalu lakukan pengecekan status anda dengan cara melakukan pencarian pada menu untuk memantau status pendaftaran anda ☺️
                     </p>
                     </div>

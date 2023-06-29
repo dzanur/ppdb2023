@@ -35,17 +35,18 @@ $vjalur = $jalur1;
                         <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdb . $nonakademik . "01/daftar'  target='_BLANK'";}else {echo "";}?>>- Non Akademik</a></li>
                     </ul>
                 </li>
-                <?php
-                // if (condition) {
-                //     # code...
-                // } else {
-                //     # code...
-                // }
-                
-                ?>
-                <!-- <li class="nav-item">
-                    <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download</a>
-                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user-check"></i> Hasil Seleksi</a>
+                    <ul class="dropdown-menu bg-primary-700 shadow-lg px-3">
+                        <li><a class="dropdown-item nav-link" <?php if ($pafirmasi == "true") { echo "href='$pengafirmasi' target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-address-card"></i> Afirmasi <?= $lock ?></a></li>
+                        <li><a class="dropdown-item nav-link" <?php if ($pengsatu == "true") { echo "href='href='$pengafirmasi'  target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-street-view"></i> Zonasi  <?= $lock1 ?></a></li>
+                        <li><a class="dropdown-item nav-link" <?php if ($pengsatu == "true") { echo "href='href='$pengafirmasi'  target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-right-left"></i> Perpindahan Tugas Orang Tua  <?= $lock1 ?></a></li>
+                        <li><hr></li>
+                        <li><a class="dropdown-item nav-link disabled" href=""><i class="fa-solid fa-graduation-cap"></i> <strong>Prestasi</strong></a></li>
+                        <li><a class="dropdown-item nav-link" <?php if ($pengsatu == "true") { echo "href='href='$pengafirmasi'  target='_BLANK'";}else {echo "";}?>>- Akademik  <?= $lock1 ?></a></li>
+                        <li><a class="dropdown-item nav-link" <?php if ($pengsatu == "true") { echo "href='href='$pengafirmasi'  target='_BLANK'";}else {echo "";}?>>- Non Akademik  <?= $lock1 ?></a></li>
+                    </ul>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link <?php if($request == "/download") echo "active"; ?>" href="download"><i class="fa-solid fa-download"></i> Download</a>
                 </li>

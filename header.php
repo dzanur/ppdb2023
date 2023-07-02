@@ -26,13 +26,13 @@ $vjalur = $jalur1;
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-edit"></i> Daftar</a>
                     <ul class="dropdown-menu bg-primary-700 shadow-lg px-3">
-                        <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdbdr . $afirmasidr . "01/daftar' target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-address-card"></i> Afirmasi</a></li>
-                        <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdbdr . $zonasidr . "01/daftar'  target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-street-view"></i> Zonasi</a></li>
-                        <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdbdr . $mutasidr . "01/daftar'  target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-right-left"></i> Perpindahan Tugas Orang Tua</a></li>
+                        <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdbdr . $afirmasidr . " target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-address-card"></i> Afirmasi</a></li>
+                        <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdbdr . $zonasidr . " target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-street-view"></i> Zonasi</a></li>
+                        <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdbdr . $mutasidr . " target='_BLANK'";}else {echo "";}?>><i class="fa-solid fa-right-left"></i> Perpindahan Tugas Orang Tua</a></li>
                         <li><hr></li>
                         <li><a class="dropdown-item nav-link disabled" href=""><i class="fa-solid fa-graduation-cap"></i> <strong>Prestasi</strong></a></li>
-                        <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdbdr . $akademikdr . "01/daftar'  target='_BLANK'";}else {echo "";}?>>- Akademik</a></li>
-                        <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdbdr . $nonakademikdr . "01/daftar'  target='_BLANK'";}else {echo "";}?>>- Non Akademik</a></li>
+                        <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdbdr . $akademikdr . " target='_BLANK'";}else {echo "";}?>>- Akademik</a></li>
+                        <li><a class="dropdown-item nav-link" <?php if ($daftar == "true") { echo "href='" . $linkppdbdr . $nonakademikdr . " target='_BLANK'";}else {echo "";}?>>- Non Akademik</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">

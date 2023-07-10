@@ -20,13 +20,23 @@
             <div class="col-12 col-lg-4">
                 <div class="card bg-success-100">
                     <div class="card-body text-center p-4">
-                        <i class="fa-solid fa-user-check fa-beat fa-2xl mb-3"></i>
+                        <i class="fa-solid fa-circle-info fa-beat fa-2xl mb-3"></i>
                     <p class="mt-3">
-                        Daftar ulang Jalur Afirmasi akan dilaksanakan pada tanggal 3 Juli 2023 Mulai pukul 13:00 WIB
+                        Pengumuman Hasil Seleksi akan dibuka pada Tanggal 11 Juli 2023 Pukul 10:00 WIB
                     </p>
                     </div>
                 </div>
             </div>
+            <!-- <div class="col-12 col-lg-4">
+                <div class="card bg-success-100">
+                    <div class="card-body text-center p-4">
+                        <i class="fa-solid fa-user-check fa-beat fa-2xl mb-3"></i>
+                    <p class="mt-3">
+                        Daftar ulang Jalur Zonasi, Prestasi dan Perpindahan Tugas Orang Tua akan dilaksanakan pada tanggal 12-14 Juli 2023 Mulai pukul 13:00 WIB
+                    </p>
+                    </div>
+                </div>
+            </div> -->
             <div class="col-12 col-lg-4 mt-3 mt-lg-0">
                 <div class="card bg-danger-100">
                     <div class="card-body text-center p-4">
